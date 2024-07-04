@@ -29,5 +29,10 @@ def predict_crop():
 def index():
     return "Server is up and running!"
 
+
+@app.route('/predict')
+def get_message():
+    return "API ready to predict crops change (method:POST)"
+
 if __name__ == '__main__':
     app.run(debug=True)
