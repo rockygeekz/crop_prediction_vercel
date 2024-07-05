@@ -36,5 +36,4 @@ def index():
 def get_message():
     return "API ready to predict crops change (method:POST)"
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
